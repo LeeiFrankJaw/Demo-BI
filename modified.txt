@@ -1,0 +1,16 @@
+/etc/postgresql/14/main/pg_hba.conf
+/etc/postgresql/14/main/postgresql.conf
+/usr/local/hadoop-3.3.6/etc/hadoop/hadoop-env.sh
+/usr/local/hadoop-3.3.6/etc/hadoop/yarn-env.sh
+/usr/local/apache-kylin-5.0.0-bin/conf/kylin.properties
+/usr/local/apache-hive-4.0.1-bin/conf/hive-site.xml
+/usr/local/hadoop-3.3.6/etc/hadoop/hive-site.xml
+dpkg-reconfigure dash
+/etc/sudoers
+/usr/local/hadoop-3.3.6/etc/hadoop/hdfs-site.xml
+/usr/local/apache-zookeeper-3.8.4-bin/conf/zoo.cfg
+/usr/local/apache-kylin-5.0.0-bin/conf/setenv.sh
+/usr/local/apache-kylin-5.0.0-bin/bin/get-properties.sh
+/usr/local/apache-kylin-5.0.0-bin/sbin/bootstrap.sh
+/usr/local/apache-kylin-5.0.0-bin/sbin/check-1401-kylin-config.sh
+/usr/local/apache-kylin-5.0.0-bin/sbin/prepare-hadoop-conf-dir.sh
