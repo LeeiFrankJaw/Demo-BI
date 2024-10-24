@@ -10,7 +10,10 @@ dpkg-reconfigure dash
 /usr/local/hadoop-3.3.6/etc/hadoop/hdfs-site.xml
 /usr/local/apache-zookeeper-3.8.4-bin/conf/zoo.cfg
 /usr/local/apache-kylin-5.0.0-bin/conf/setenv.sh
-/usr/local/apache-kylin-5.0.0-bin/bin/get-properties.sh
+# /usr/local/apache-kylin-5.0.0-bin/bin/get-properties.sh
 /usr/local/apache-kylin-5.0.0-bin/sbin/bootstrap.sh
-/usr/local/apache-kylin-5.0.0-bin/sbin/check-1401-kylin-config.sh
-/usr/local/apache-kylin-5.0.0-bin/sbin/prepare-hadoop-conf-dir.sh
+# /usr/local/apache-kylin-5.0.0-bin/sbin/check-1401-kylin-config.sh
+# /usr/local/apache-kylin-5.0.0-bin/sbin/prepare-hadoop-conf-dir.sh
+sample.sh --client beeline --params '-u jdbc:hive2://localhost:10000'
+mv $KYLIN_HOME/spark/hive_1_2_2/org.apache.derby_derby-10.10.2.0.jar{,~}
+mv $KYLIN_HOME/spark/jars/derby-10.14.2.0.jar $KYLIN_HOME/spark/hive_1_2_2/
